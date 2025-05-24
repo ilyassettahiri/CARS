@@ -64,25 +64,7 @@ export function TopicSuggester() {
         </div>
 
         <div className="text-center">
-          <h3 className="text-2xl font-bold mb-4 text-primary">
-            Need Content Inspiration?
-          </h3>
-          <p className="mb-8 text-lg text-secondary-foreground max-w-2xl mx-auto">
-            Let our AI help you brainstorm engaging blog post topics related to your Moroccan automotive adventures and travel experiences.
-          </p>
-          <Button
-            onClick={handleSuggestTopics}
-            disabled={isLoading}
-            size="lg"
-            className="bg-accent hover:bg-accent/90 text-accent-foreground"
-          >
-            {isLoading ? (
-              <Loader2 className="mr-2 h-5 w-5 animate-spin" />
-            ) : (
-              <Lightbulb className="mr-2 h-5 w-5" />
-            )}
-            Generate Blog Ideas
-          </Button>
+          {/* The "Need Content Inspiration?" heading, paragraph, and button have been removed. */}
 
           {topics.length > 0 && (
             <Card className="mt-10 text-left max-w-2xl mx-auto shadow-xl">
