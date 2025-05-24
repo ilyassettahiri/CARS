@@ -1,6 +1,6 @@
-import type { CarListing } from '@/types';
+import type { VehicleListing } from '@/types';
 
-export const carListings: CarListing[] = [
+export const carListings: VehicleListing[] = [
   {
     picture: "cars/7a83b76fbd8f1c7631f041f3275a6b17small.webp",
     title: "Cheap Car Rentals in Agadir – VW T-Roc 2025 Starting at Great Rates",
